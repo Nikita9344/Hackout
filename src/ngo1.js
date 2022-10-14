@@ -1,10 +1,6 @@
 import React from "react";
-//import logo from "./images/Bizino-data-science-logo.jpg";
-//import vid from "./images/Website-Background-Video.mp4";
-//import Offerings from "./Offerings";
-//import offerings from "./offerings-data";
 
-const Header = () => {
+const individual1 = () => {
     
     
   return (
@@ -23,9 +19,11 @@ const Header = () => {
           </button>
         </a>
         
-        <button className="header-btn">
-          <h2>ngo</h2>
-        </button>
+        <a href="./ngo1.js">
+          <button className="header-btn">
+            <h2>NGO</h2>
+          </button>
+        </a>
       </div>
       
     </header>
